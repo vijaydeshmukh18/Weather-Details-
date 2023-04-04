@@ -1,0 +1,115 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+i{
+    margin-left: 10px;
+}
+.fa-cloud,.fa-sun,.fa-bolt{
+    display: none;
+}
+.fa-cloud{
+    color: rgb(54, 182, 233);
+}
+.fa-sun{
+    color: rgb(221, 203, 13);
+}
+.fa-bolt{
+    color: rgb(223, 223, 89);
+}
+.container h1{
+    position:absolute;
+    top:10%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: px;
+    font-weight:600;
+}
+.bgimg{
+    width: 100vw;
+    height: 100vh;
+}
+.box{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #0d074fbc;
+}
+
+.cityinput{
+    flex-grow: 1;
+    padding: 5px 2px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    margin-right: 5px;
+    color: white;
+}
+.cityinput:focus{
+    outline: none;
+}
+.checkbutton{
+    border: none;
+    background-color: rgb(39, 62, 131);
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.infobox{
+    color:white;
+    padding: 20px 0px;
+}
+
+.place,.tempbox,.description,.details,.inputbar,.indetail,.more{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    font-size: 12px;
+}
+.place>*,.tempbox>*,.details>*{
+    padding: 10px 0px;
+}
+.cityname{
+    font-size: 1.5em;
+}
+.temp{
+    font-size: 5em;
+    font-weight: bold;
+}
+.desc{
+    text-transform: capitalize;
+}
+.details{
+    flex-direction: column;
+    justify-content: space-between;
+}
+.indetail{
+    justify-content: space-between;
+}
+.more{
+    margin: 50px 0 0 0;
+    color: #aaa;
+    cursor: pointer;
+}
+.tempbox{
+    align-items: center;
+}
+.temp{
+    margin:0 10px;
+}
+.infobox{
+    display: none;
+}
+.details{
+    display: none;
+}
+
